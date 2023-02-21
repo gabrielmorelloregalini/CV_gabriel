@@ -12,28 +12,35 @@
 body{
     font-family: 'Lato', sans-serif;;
     background-color: grey;
-    margin-bottom: 50px;
+    
 }
 .container {
     width: 800px;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     background-color: white;
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3), -7px -7px 5px rgb(0, 0, 0, 0.3);
 
 }
 header {
+    position: relative;
     display: flex;
-    flex-direction: row;
     justify-content:space-evenly;
     align-items: center;
     background-color: rgb(214, 221, 230);
+}
+.download{
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 header section img {
     width: 180px;
     padding: 5px;
     position: absolute;
-    transform: translate(-57%, -50%);
+    transform: translate(-55%, -50%);
     box-shadow: 2px,2px,5px rgba(0, 0, 0, 0.3);
     background-color: rgb(14, 53, 105);
 }
@@ -47,7 +54,6 @@ h2 {
     letter-spacing: 4px;
 }
 header section h6 {
-    opacity: 0;
     font-size: 20px;
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
@@ -60,6 +66,7 @@ header section h6 {
 main {
     display: flex;
     justify-content: space-around;
+
 }
 /* ---- PARTE DE LA IZQUIERDA ---- */
 .izquierda{
@@ -147,7 +154,6 @@ main {
     background-color: rgb(14, 53, 105);
     transition: transform 0.2s ease;
   }
-  
 .derecha h2:hover:after {
     transform: scaleX(1.2);
   } 
