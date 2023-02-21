@@ -31,27 +31,23 @@ header {
 }
 header section img {
     width: 180px;
+    padding: 5px;
     position: absolute;
     transform: translate(-57%, -50%);
     box-shadow: 2px,2px,5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(14, 53, 105);
 }
 
 .nombre {
     padding: 30px;
 }
-h1{
-    font-size: 40px;
-    font-weight: 800px;
 
-    text-align: center;
-    line-height: 40px;
-    letter-spacing: 2px;
-}
 h2 {
     font-size: 25px;
     letter-spacing: 4px;
 }
 header section h6 {
+    opacity: 0;
     font-size: 20px;
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
@@ -72,6 +68,10 @@ main {
     background-color: rgb(239, 239, 239);
     width: 35%;
 
+}
+.izquierda h2 {
+    background-color: rgb(14, 53, 105);
+    color: rgb(239, 239, 239);
 }
 .izquierda div{
     padding: 20px;
@@ -97,13 +97,7 @@ main {
 }
 /* contacto */
 .contacto h2 {
-    padding: 10px;    
-}
-.contacto h2:hover {
-    background-color: rgb(14, 53, 105);
-    color: rgb(239, 239, 239);
-    cursor: pointer;
-    transition: 500ms ease-in-out;
+    padding: 10px;
 }
 .contacto ul li{
     padding: 10px;
@@ -168,7 +162,44 @@ main {
 .estudios section {
     margin: 10px 0px;
 }
-.xp p{
-    padding-bottom: 10px;
+.xp h6 {
+    padding-bottom: 10px
+}
+span {
+    font-size: small;
 }
 /* prueba */
+h1{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 40px;
+    font-weight: 800px;
+
+    line-height: 40px;
+    letter-spacing: 2px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
+h1.insetshadow {
+    color: #192449a1;
+    letter-spacing: 0.1em;
+    text-shadow: -1px -1px 1px #1e376d, 2px 2px 1px grey;
+}
+header:hover h6{
+    opacity: 1;
+    animation: fade-on 1s ease-in-out forwards;   
+}
+header:not(:hover) h6{
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
+}
+  
+  @keyframes fade-in {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  @keyframes fade-on {
+    from { opacity: 0;}
+    to{ opacity: 1;}
+  }
