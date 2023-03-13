@@ -215,4 +215,10 @@ header:not(:hover) h6{
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    body {
+        background-color: white;
+    }
+    .download {
+        opacity: 0;
+    }
 }
