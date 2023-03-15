@@ -191,14 +191,6 @@ h1.insetshadow {
     letter-spacing: 0.1em;
     text-shadow: -1px -1px 1px #1e376d, 2px 2px 1px grey;
 }
-header:hover h6{
-    opacity: 1;
-    animation: fade-on 1s ease-in-out forwards;   
-}
-header:not(:hover) h6{
-    opacity: 0;
-    animation: fade-in 1s ease-in-out forwards;
-}
   
   @keyframes fade-in {
     from { opacity: 1; }
