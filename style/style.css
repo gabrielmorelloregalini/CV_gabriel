@@ -47,7 +47,23 @@ header section img {
 }
 
 .nombre {
-    padding: 30px;
+    padding: 25px;
+}
+h1{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 35px;
+
+    line-height: 40px;
+    letter-spacing: 2px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
+h1.insetshadow {
+    color: #192449a1;
+    letter-spacing: 0.1em;
+    text-shadow: -1px -1px 1px #1e376d, 2px 2px 1px grey;
 }
 
 h2 {
@@ -159,7 +175,7 @@ main {
 .derecha h3 {
     font-size: 16px;
     font-weight: bold;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 .derecha p, ul li, span {
     font-size: 16px;
@@ -174,23 +190,7 @@ span {
     font-size: small;
 }
 /* prueba */
-h1{
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 40px;
-    font-weight: 800px;
 
-    line-height: 40px;
-    letter-spacing: 2px;
-    
-    text-align: center;
-    text-transform: uppercase;
-    text-rendering: optimizeLegibility;
-}
-h1.insetshadow {
-    color: #192449a1;
-    letter-spacing: 0.1em;
-    text-shadow: -1px -1px 1px #1e376d, 2px 2px 1px grey;
-}
   
   @keyframes fade-in {
     from { opacity: 1; }
