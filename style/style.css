@@ -16,7 +16,6 @@ body{
 }
 .container {
     width: 800px;
-    height: 1120px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -37,11 +36,13 @@ header {
     top: 0;
     right: 0;
 }
+
 header section img {
     width: 180px;
     padding: 5px;
     position: absolute;
     transform: translate(-55%, -50%);
+
     box-shadow: 2px,2px,5px rgba(0, 0, 0, 0.3);
     background-color: rgb(14, 53, 105);
 }
@@ -175,19 +176,19 @@ main {
 .derecha h3 {
     font-size: 16px;
     font-weight: bold;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 .derecha p, ul li, span {
     font-size: 16px;
 }
 .estudios section {
-    margin: 10px 0px;
+    margin: 10px 0px 0px 0px;
 }
-.xp h6 {
-    padding-bottom: 10px
+.xp {
+    padding-bottom: 14px
 }
 span {
-    font-size: small;
+    font-size: 14px;
 }
 /* prueba */
 
