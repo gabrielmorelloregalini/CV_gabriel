@@ -49,7 +49,7 @@ header section img {
 }
 
 .nombre {
-    padding: 25px;
+    padding: 20px;
 }
 h1{
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
@@ -139,7 +139,7 @@ main {
 }
 .contacto ul li a {
     text-decoration: none;
-    font-size: small;
+    font-size: 14px;
 }
 
 /* ---- PARTE DE LA DERECHA ---- */
@@ -176,12 +176,12 @@ main {
     background-color: rgb(14, 53, 105);
   }
 .derecha h3 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 2px;
 }
 .derecha p, ul li, span {
-    font-size: 16px;
+    font-size: 14.5px;
 }
 .xp {
     padding-bottom: 14px
