@@ -45,6 +45,7 @@ header section img {
     transform: translate(-55%, -50%);
 
     box-shadow: 2px,2px,5px rgba(0, 0, 0, 0.3);
+    background-color: #1e376d;
 }
 
 .nombre {
